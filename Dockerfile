@@ -8,7 +8,7 @@ RUN tar -xzf ta-lib-0.4.0-src.tar.gz && cd ta-lib/ && ./configure --prefix=/usr 
 
 WORKDIR /notebooks
 
-RUN pip3 install ta-lib 
+RUN pip3 install ta-lib mpl_finance
 
 EXPOSE 8888
 
